@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.header-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.header-logo{}
+.header-logo img{
+    width: 100px;
+    padding: 15px 0;
+}
+.header-section{
+    background-color: #141719;
+}
+.header-menu ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 0;
+}
+.header-menu ul li{
+    padding: 0 10px;
+}
+.header-menu ul li a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+}
+.header-menu ul li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -7px;
+    left: 0;
+    background-color: #fff;
+}
+/* banner-part css */
+.banner-section{}
+.left-section {
+    width: 80%;
+    margin-right: 30px;
+}
+.right-section{
+    width: 20%;
+    background-color: #d2d2d2;
+    display: flex;
+}
+.banner-section{
+    display: flex;
+    margin-top: 100px;
+    
+}
+.banner1{
+    display: flex;
+}
+.div1 {
+    height: 300px;
+    width: 320px;
+    border: 1px solid green;
+    margin:  20px;
+}
+.div2{
+    height: 300px;
+    width: 320px;
+    border: 1px solid green;
+    margin:  20px;
+}
+.div3{
+    height: 300px;
+    width: 320px;
+    border: 1px solid green;
+    margin:  20px;
+}
+.right-content {
+    padding: 24px;
+}
+.right-content img{
+    width: 200px;
+}
+.right-content h3{}
+.right-content p{}
+
+.center1{
+    height: 50px;
+    width: 80px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}.center2{
+    height: 50px;
+    width: 80px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}.center3{
+    height: 50px;
+    width: 80px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.center p{
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+/* banner2 part css */
+.banner2{
+    display: flex;
+    margin-top: 30px;
+}
+.lorem1 {
+    height: 170px;
+    width: 280px;
+    border: 1px solid green;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem2 {
+    height: 170px;
+    width: 420px;
+    border: 1px solid green;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem3{
+    height: 170px;
+    width: 280px;
+    border: 1px solid green;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lorem1 p {
+    padding: 15px;
+}
+.lorem2 p{
+    padding: 15px;
+}
+.lorem3 p{
+    padding: 15px;
+}
+.banner3{
+    display: flex;
+}
+.lorem4 {
+    height: 170px;
+    width: 320px;
+    border: 1px solid green;
+    margin: 20px;
+}
+.lorem5{
+    height: 170px;
+    width: 350px;
+    border: 1px solid green;
+    margin: 20px;
+}
+.lorem6{
+    height: 170px;
+    width: 320px;
+    border: 1px solid green;
+    margin: 20px;
+}
+
+/* banner3 css part */
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.flex p{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    margin: 26px 8px;
+}
+.flex-item {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: start;
+}
+.flex-item p{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+.flex-btn{
+    /* display: flex; */
+    margin: 20px;
+}
+.flex-btn p{
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+}
+.btn1{}
+.btn2{
+    display: flex;
+    justify-content: center;
+}
+.btn3{
+    display: flex;
+    justify-content: flex-end;
+}
+/* footer part css */
+.footer-section{
+    background-color: #141719;
+}
+.footer-text{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.footer-text ul{
+    list-style: none;
+}
+.footer-text ul li {
+    display: inline-block;
+    padding: 30px 20px;
+}
+.footer-text ul li a {
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    position: relative;
+}
+.footer-text ul li a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: -10px;
+    background-color: #fff;
+}
